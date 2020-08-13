@@ -1,0 +1,69 @@
+import csv
+import pickle
+import pandas as pds
+from sqlalchemy import create_engine
+import mysql.connector
+
+
+db=mysql.connector.Connect(
+  host="localhost",
+  user="root",
+  password="2000sara",
+  database="training1"
+)
+
+mycursor=db.cursor()
+mycursor.execute("SHOW DATABASES")
+
+for c in mycursor:
+  print(c)
+
+print("---------DATABASES----------")
+mycursor.execute("SHOW TABLES")
+
+for c in mycursor:
+  print(c)
+#sql ="INSERT INTO names(name, address) VALUES (%s, %s)"
+#val= ("ali","row")
+#mycursor.execute(sql,val)
+#db.commit()
+
+#print("1 record inserted, ID:",mycursor.lastrowid)
+#sql ="INSERT INTO JOBS(name) VALUES('doctor')"
+#val= ("doctor")
+#mycursor.execute(sql)
+#db.commit()
+#mycursor.execute("SELECT * FROM names")
+
+#myresult = mycursor.fetchall()
+
+#for x in myresult:
+ # print(x)
+print("-------unpickle--------")
+my_data = pds.read_sql("SELECT * FROM names",db)
+#print(my_data)
+fob = open('my_student','wb') # file handling object is created
+pickle.dump(my_data,fob) # generated the Pickle
+fob=open('my_student','rb')
+my_dict1=pickle.load(fob) # reading the Pickle
+fob.close()
+print("-------reading the Pickle--------")
+print(my_dict1)
+
+engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
+                       .format(user="root",
+                               pw="2000sara",
+                               db="training1"))
+sql="SELECT * FROM names"
+my_data = pds.read_sql(sql,con=engine)
+print(my_data)
+my_data.to_sql(con=engine,name='pickledda',if_exists='append')
+print("-------------pickledda------------")
+
+mycursor.execute("SELECT * FROM pickledda")
+
+myresult1 = mycursor.fetchall()
+
+for x in myresult1:
+  print(x)
+
