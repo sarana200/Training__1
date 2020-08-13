@@ -1,0 +1,155 @@
+C:\Users\Sera\PycharmProjects\untitled\x\Scripts\python.exe C:/Users/Sera/PycharmProjects/untitled/sc.py
+('car',)
+('colors',)
+('information_schema',)
+('my_first_db',)
+('mydatabase',)
+('mysql',)
+('performance_schema',)
+('sys',)
+('training1',)
+---------DATABASES----------
+('names',)
+('pickledda',)
+-------unpickle--------
+-------reading the Pickle--------
+       name          address  id
+0     Peter      Lowstreet 4   1
+1       Amy     Apple st 652   2
+2    Hannah      Mountain 21   3
+3   Michael       Valley 345   4
+4     Sandy     Ocean blvd 2   5
+5     Betty    Green Grass 1   6
+6   Richard       Sky st 331   7
+7     Susan       One way 98   8
+8     Vicky  Yellow Garden 2   9
+9       Ben     Park Lane 38  10
+10  William   Central st 954  11
+11    Chuck    Main Road 989  12
+12    Viola     Sideway 1633  13
+13      ali              row  14
+14      ali              row  15
+       name          address  id
+0     Peter      Lowstreet 4   1
+1       Amy     Apple st 652   2
+2    Hannah      Mountain 21   3
+3   Michael       Valley 345   4
+4     Sandy     Ocean blvd 2   5
+5     Betty    Green Grass 1   6
+6   Richard       Sky st 331   7
+7     Susan       One way 98   8
+8     Vicky  Yellow Garden 2   9
+9       Ben     Park Lane 38  10
+10  William   Central st 954  11
+11    Chuck    Main Road 989  12
+12    Viola     Sideway 1633  13
+13      ali              row  14
+14      ali              row  15
+-------------pickledda------------
+(0, 'Peter', 'Lowstreet 4', 1)
+(1, 'Amy', 'Apple st 652', 2)
+(2, 'Hannah', 'Mountain 21', 3)
+(3, 'Michael', 'Valley 345', 4)
+(4, 'Sandy', 'Ocean blvd 2', 5)
+(5, 'Betty', 'Green Grass 1', 6)
+(6, 'Richard', 'Sky st 331', 7)
+(7, 'Susan', 'One way 98', 8)
+(8, 'Vicky', 'Yellow Garden 2', 9)
+(9, 'Ben', 'Park Lane 38', 10)
+(10, 'William', 'Central st 954', 11)
+(11, 'Chuck', 'Main Road 989', 12)
+(12, 'Viola', 'Sideway 1633', 13)
+(13, 'ali', 'row', 14)
+(14, 'ali', 'row', 15)
+(0, 'Peter', 'Lowstreet 4', 1)
+(1, 'Amy', 'Apple st 652', 2)
+(2, 'Hannah', 'Mountain 21', 3)
+(3, 'Michael', 'Valley 345', 4)
+(4, 'Sandy', 'Ocean blvd 2', 5)
+(5, 'Betty', 'Green Grass 1', 6)
+(6, 'Richard', 'Sky st 331', 7)
+(7, 'Susan', 'One way 98', 8)
+(8, 'Vicky', 'Yellow Garden 2', 9)
+(9, 'Ben', 'Park Lane 38', 10)
+(10, 'William', 'Central st 954', 11)
+(11, 'Chuck', 'Main Road 989', 12)
+(12, 'Viola', 'Sideway 1633', 13)
+(13, 'ali', 'row', 14)
+(14, 'ali', 'row', 15)
+(0, 'Peter', 'Lowstreet 4', 1)
+(1, 'Amy', 'Apple st 652', 2)
+(2, 'Hannah', 'Mountain 21', 3)
+(3, 'Michael', 'Valley 345', 4)
+(4, 'Sandy', 'Ocean blvd 2', 5)
+(5, 'Betty', 'Green Grass 1', 6)
+(6, 'Richard', 'Sky st 331', 7)
+(7, 'Susan', 'One way 98', 8)
+(8, 'Vicky', 'Yellow Garden 2', 9)
+(9, 'Ben', 'Park Lane 38', 10)
+(10, 'William', 'Central st 954', 11)
+(11, 'Chuck', 'Main Road 989', 12)
+(12, 'Viola', 'Sideway 1633', 13)
+(13, 'ali', 'row', 14)
+(14, 'ali', 'row', 15)
+(0, 'Peter', 'Lowstreet 4', 1)
+(1, 'Amy', 'Apple st 652', 2)
+(2, 'Hannah', 'Mountain 21', 3)
+(3, 'Michael', 'Valley 345', 4)
+(4, 'Sandy', 'Ocean blvd 2', 5)
+(5, 'Betty', 'Green Grass 1', 6)
+(6, 'Richard', 'Sky st 331', 7)
+(7, 'Susan', 'One way 98', 8)
+(8, 'Vicky', 'Yellow Garden 2', 9)
+(9, 'Ben', 'Park Lane 38', 10)
+(10, 'William', 'Central st 954', 11)
+(11, 'Chuck', 'Main Road 989', 12)
+(12, 'Viola', 'Sideway 1633', 13)
+(13, 'ali', 'row', 14)
+(14, 'ali', 'row', 15)
+(0, 'Peter', 'Lowstreet 4', 1)
+(1, 'Amy', 'Apple st 652', 2)
+(2, 'Hannah', 'Mountain 21', 3)
+(3, 'Michael', 'Valley 345', 4)
+(4, 'Sandy', 'Ocean blvd 2', 5)
+(5, 'Betty', 'Green Grass 1', 6)
+(6, 'Richard', 'Sky st 331', 7)
+(7, 'Susan', 'One way 98', 8)
+(8, 'Vicky', 'Yellow Garden 2', 9)
+(9, 'Ben', 'Park Lane 38', 10)
+(10, 'William', 'Central st 954', 11)
+(11, 'Chuck', 'Main Road 989', 12)
+(12, 'Viola', 'Sideway 1633', 13)
+(13, 'ali', 'row', 14)
+(14, 'ali', 'row', 15)
+(0, 'Peter', 'Lowstreet 4', 1)
+(1, 'Amy', 'Apple st 652', 2)
+(2, 'Hannah', 'Mountain 21', 3)
+(3, 'Michael', 'Valley 345', 4)
+(4, 'Sandy', 'Ocean blvd 2', 5)
+(5, 'Betty', 'Green Grass 1', 6)
+(6, 'Richard', 'Sky st 331', 7)
+(7, 'Susan', 'One way 98', 8)
+(8, 'Vicky', 'Yellow Garden 2', 9)
+(9, 'Ben', 'Park Lane 38', 10)
+(10, 'William', 'Central st 954', 11)
+(11, 'Chuck', 'Main Road 989', 12)
+(12, 'Viola', 'Sideway 1633', 13)
+(13, 'ali', 'row', 14)
+(14, 'ali', 'row', 15)
+(0, 'Peter', 'Lowstreet 4', 1)
+(1, 'Amy', 'Apple st 652', 2)
+(2, 'Hannah', 'Mountain 21', 3)
+(3, 'Michael', 'Valley 345', 4)
+(4, 'Sandy', 'Ocean blvd 2', 5)
+(5, 'Betty', 'Green Grass 1', 6)
+(6, 'Richard', 'Sky st 331', 7)
+(7, 'Susan', 'One way 98', 8)
+(8, 'Vicky', 'Yellow Garden 2', 9)
+(9, 'Ben', 'Park Lane 38', 10)
+(10, 'William', 'Central st 954', 11)
+(11, 'Chuck', 'Main Road 989', 12)
+(12, 'Viola', 'Sideway 1633', 13)
+(13, 'ali', 'row', 14)
+(14, 'ali', 'row', 15)
+
+Process finished with exit code 0
